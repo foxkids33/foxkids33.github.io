@@ -20,7 +20,7 @@ function play() {
         myTxt.innerHTML = "";
         imageIndex = 0;
         clearInterval(showImageInterval);
-        showImageInterval = setInterval(showImage, 2500);  // Перезапускаем показ изображений
+        showImageInterval = setInterval(showImage, 5000);  // Перезапускаем показ изображений
     }
     flag = 1 - flag;
     document.getElementById("typeDiv").style.opacity = flag;
