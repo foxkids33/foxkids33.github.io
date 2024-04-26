@@ -1,6 +1,6 @@
 #typeDiv {
 	position: absolute;
-	top: 45%;
+	top: 35%;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -10,22 +10,12 @@
 }
 
 #txt1 {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	color: white;
 }
 #txt2 {
-	font-size: 16px;
-	text-align: center;
-	color: white;
-}
-#txt3 {
-	font-size: 16px;
-	text-align: center;
-	color: white;
-}
-#txt4 {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	color: white;
 }
@@ -128,8 +118,9 @@
 	left: 0;
 	right: 0;
 	margin: auto;
-	width: auto;
-	height: 100%;
+	width: 20%;
+	height: auto;
+	image-rendering: high-quality;
 }
 
 #Txt{
